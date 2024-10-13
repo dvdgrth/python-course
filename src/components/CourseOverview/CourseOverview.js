@@ -44,6 +44,16 @@ const CourseOverview = () => {
               </Link>
             </li>
           ))}
+          <li>
+            {" "}
+            <a
+              href="https://www.online-python.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Online Python Editor &#128279;
+            </a>
+          </li>
         </ul>
       )}
     </div>

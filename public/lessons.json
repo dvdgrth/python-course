@@ -2,18 +2,17 @@
   "lessons": [
     { "id": 1, "title": "Hallo Welt!" },
     { "id": 2, "title": "Wie heißt Du?" },
-    { "id": 3, "title": "Taschenrechner" },
-    { "id": 4, "title": "todo" },
-    { "id": 5, "title": "todo" },
-    { "id": 6, "title": "todo" },
-    { "id": 7, "title": "todo" },
-    { "id": 8, "title": "todo" },
-    { "id": 9, "title": "todo" },
-    { "id": 10, "title": "todo" },
-    { "id": 11, "title": "todo" },
-    { "id": 12, "title": "todo" },
-    { "id": 13, "title": "todo" },
-    { "id": 14, "title": "todo" },
-    { "id": 15, "title": "todo" }
+    { "id": 3, "title": "Wie alt bist Du?" },
+    { "id": 4, "title": "100 Jahre" },
+    { "id": 5, "title": "Taschenrechner" },
+    { "id": 6, "title": "Cooler Typ" },
+    { "id": 7, "title": "Hausaufgabenhelfer" },
+    { "id": 8, "title": "Spotify-Jahresstatistik" },
+    { "id": 9, "title": "..." },
+    { "id": 10, "title": "..." },
+    { "id": 11, "title": "..." },
+    { "id": 12, "title": "..." },
+    { "id": 13, "title": "..." },
+    { "id": 14, "title": "..." }
   ]
 }

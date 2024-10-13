@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom"; // Import useNavigate
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { materialDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import "./LessonPage.css";
 import remarkGfm from "remark-gfm"; // Import remark-gfm for GitHub Flavored Markdown
 import rehypeRaw from "rehype-raw"; // Import rehype-raw for rendering HTML
@@ -44,7 +44,7 @@ const LessonPage = () => {
                 const match = /language-(\w+)/.exec(className || "");
                 return !inline && match ? (
                   <SyntaxHighlighter
-                    style={atomDark}
+                    style={materialDark}
                     language={match[1]}
                     PreTag="div"
                     {...props}

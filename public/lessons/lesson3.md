@@ -1,61 +1,21 @@
-# Taschenrechner
+# Wie alt bist Du?
 
-Aufgabe: Programmiere einen Taschenrechner für die Addition zweier Zahlen.
+Wir sagen dem Computer eine Zahl. (Computer lieben Zahlen.)
 
-##
-
-## Tipps
-
-**_NOTE:_** The note content.
-
-<a href="/pdf/01_Python_Hallo_Welt.pdf" target="_blank">Download the PDF</a>
-
-- Variables
-- Data Types
-- Basic Syntax
-
-```python
-your_code = do_some_stuff()
-import time
-if True:
-    print("hello")
-```
+<div class="exercise-box">
+  <h3>Aufgabe:</h3>
+  <p>Schreibe ein Python-Programm, das Dich nach Deinem Alter fragt und anschließend eine Bemerkung dazu macht.</p>
+</div>
 
 <details>
-  <summary>Tipp 1</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
 
-### Some Javascript
+ <summary>Tipp</summary>
 
-```js
-function logSomething(something) {
-  console.log("Something", something);
-}
+```python
+alter = input("Wie alt bist Du?")
+print("Wow, Du bist also, " + alter + "Jahre alt.")
 ```
 
+Die `input`-Funktion kennen wir schon. Die Variable haben wir hier `alter` genannt, weil wir ein Alter speichern wollen, aber wir hätten sie auch beliebig anders nennen können.
+
 </details>
-
-For GFM, you can _also_ use a plugin:
-[`remark-gfm`](https://github.com/remarkjs/react-markdown#use).
-It adds support for GitHub-specific extensions to the language:
-tables, strikethrough, tasklists, and literal URLs.
-
-These features **do not work by default**.
-👆 Use the toggle above to add the plugin.
-
-|    Feature | Support              |
-| ---------: | :------------------- |
-| CommonMark | 100%                 |
-|        GFM | 100% w/ `remark-gfm` |
-
-~~strikethrough~~
-
-- [ ] task list
-- [x] checked item
-
-https://example.com
