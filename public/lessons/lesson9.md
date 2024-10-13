@@ -24,7 +24,7 @@ else:
     print("Herzlich willkommen.")
 ```
 
-_if_ heißt auch englisch _wenn_.
+_if_ heißt auf englisch _wenn_.
 
 _else_ heißt auf englisch _sonst_.
 
