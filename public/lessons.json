@@ -8,11 +8,12 @@
     { "id": 6, "title": "Cooler Typ" },
     { "id": 7, "title": "Hausaufgabenhelfer" },
     { "id": 8, "title": "Spotify-Jahresstatistik" },
-    { "id": 9, "title": "..." },
-    { "id": 10, "title": "..." },
-    { "id": 11, "title": "..." },
-    { "id": 12, "title": "..." },
-    { "id": 13, "title": "..." },
-    { "id": 14, "title": "..." }
+    { "id": 9, "title": "Du kommst hier nicht rein" },
+    { "id": 10, "title": "Passwort" },
+    { "id": 11, "title": "elif" },
+    { "id": 12, "title": "Taschenrechner Deluxe" },
+    { "id": 13, "title": "Eine Cola bitte" },
+    { "id": 14, "title": "Schere, Stein, Papier" },
+    { "id": 15, "title": "Let's make some money!" }
   ]
 }

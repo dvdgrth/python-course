@@ -1,4 +1,4 @@
-# Hausaufgabenhelfer 1
+# Hausaufgabenhelfer
 
 Wir lassen einfach Python die Arbeit machen.
 
