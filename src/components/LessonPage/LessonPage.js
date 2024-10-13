@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom"; // Import useNavigate
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { Loader } from "lucide-react"; // Import the Loader icon from lucide-react
 import "./LessonPage.css";
 import remarkGfm from "remark-gfm"; // Import remark-gfm for GitHub Flavored Markdown
 import rehypeRaw from "rehype-raw"; // Import rehype-raw for rendering HTML
@@ -11,6 +12,7 @@ const LessonPage = () => {
   const { lessonId } = useParams();
   const navigate = useNavigate(); // Initialize navigate
   const [lessonContent, setLessonContent] = useState("");
+  const [loading, setLoading] = useState(true); // Loading state
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -24,15 +26,24 @@ const LessonPage = () => {
       })
       .then((text) => {
         setLessonContent(text); // Set the content as the Markdown text
+        setLoading(false); // Stop loading when content is fetched
       })
       .catch(() => {
-        setError("Failed to load lesson content"); // Handle any errors
+        setError(
+          "Aufgabe konnte nicht geladen werden. Bitte versuche es nochmal."
+        ); // Handle any errors
+        setLoading(false); // Stop loading if there's an error
       });
   }, [lessonId]);
 
   return (
     <div className="LessonPage">
-      {error ? (
+      {loading ? (
+        // Loading spinner using lucide-react Loader
+        <div className="spinner">
+          <Loader className="spinner-icon" size={48} />
+        </div>
+      ) : error ? (
         <p>{error}</p>
       ) : (
         <div className="lesson-content">
